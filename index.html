@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
@@ -12,10 +13,10 @@
         <img src="./images/Logo.svg" alt="лого сайта">
     </a>
 <ul>
-    <li><a href="">О нас</a></li>
-    <li><a href="">Услуги и цены</a></li>
-    <li><a href="">Мастера</a></li>
-    <li><a href="">Контакты</a></li>
+    <li><a href="#hid1">О нас</a></li>
+    <li><a href="#hid2">Услуги и цены</a></li>
+    <li><a href="#hid3">Мастера</a></li>
+    <li><a href="#hid4">Контакты</a></li>
 </ul>
 <a href="tel:+380441111111">+38 044 111 11 11</a>
 <button>онлайн-запись</button>
@@ -36,7 +37,7 @@
                 <li><img src="./images/img1.jpg.jpg" alt=""></li>
                 <li><img src="./images/img2.jpg.jpg" alt=""></li>
             </ul>
-            <p>О НАС</p>
+            <p id="hid1">О НАС</p>
             <h2>Лучший Барбершоп
                 твоего города</h2>
               <ul>
@@ -53,7 +54,7 @@
         </section>
         <section>
             <p>Проведи время в компании лучших мастеров</p>
-            <h2>Услуги и цены</h2>
+            <h2 id="#hid2">Услуги и цены</h2>
             <ul>
                 <li>
                     <p>Мужская стрижка</p>
@@ -112,7 +113,7 @@
         </section>
         <section>
             <p>для настоящих ценителей атмосферы</p>
-            <h2>Наши мастера</h2>
+            <h2 id="#hid3">Наши мастера</h2>
             <ul>
                 <li><img src="./images/work1.jpg" alt="мастера">
                     <h3 lang="en">John Smith</h3>
@@ -140,7 +141,7 @@
        <section>
            <h3>Онлайн запись</h3>
            <button>отправить</button>
-           <h3>Контакты</h3>
+           <h3 id="#hid4">Контакты</h3>
            <address>
                <ul>
                    <li><a target="_blank" href="https://goo.gl/maps/MW5pB61CFDaDW5RE6">ул. Васильковая, 7А
@@ -153,9 +154,20 @@
            <p>Ежедневно с 9:00 до 22:00</p>
        </section>
        <footer>
-        Copyright 2020
-        <address>Youtube</address>
-        <address>Instagram</address>
+        <p>Copyright 2020</p> 
+        <a href="">Читайте наш блог!</a>
+
+        <ul class="social-links">
+          <li>
+            <a href="">Twitter</a>
+          </li>
+          <li>
+            <a href="">Instagram</a>
+          </li>
+          <li>
+            <a href="">Facebook</a>
+          </li>
+        </ul>
        </footer>
         </main>
     </body>
